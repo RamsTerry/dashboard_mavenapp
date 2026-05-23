@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head>
+    <title><ui:insert name="title">Enterprise App</ui:insert></title>
+    <link rel="stylesheet" href="resources/css/style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/primeicons/primeicons.css"/>
+</h:head>
+<h:body>
+<div class="layout">
+    <ui:include src="topbar.xhtml"/>
+    <ui:include src="sidebar.xhtml"/>
+    <main class="content">
+        <ui:insert name="content"/>
+    </main>
+</div>
+</h:body>
+</html>
