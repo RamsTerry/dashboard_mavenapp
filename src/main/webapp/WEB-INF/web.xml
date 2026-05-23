@@ -8,5 +8,5 @@
     <display-name>HR System Maven Webapp</display-name>
     <display-name>PrimeFaces Web Application</display-name>    
     <welcome-file-list>
-        <welcome-file>index.xhtml</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
