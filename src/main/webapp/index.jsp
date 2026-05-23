@@ -1,16 +1,17 @@
-<ui:composition template="template.xhtml"
- xmlns="http://www.w3.org/1999/xhtml"
- xmlns:h="http://xmlns.jcp.org/jsf/html"
- xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
- xmlns:p="http://primefaces.org/ui">
+<%-- 
+    Document   : index
+    Created on : 23 May 2026, 22:48:08
+    Author     : Real Terry
+--%>
 
-<ui:define name="title">Dashboard</ui:define>
-
-<ui:define name="content">
-<h:form>
-<p:panel header="Dashboard Overview">
-    <h:outputText value="Welcome to Enterprise Dashboard"/>
-</p:panel>
-</h:form>
-</ui:define>
-</ui:composition>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+</html>
